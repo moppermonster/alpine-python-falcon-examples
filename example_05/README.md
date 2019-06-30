@@ -62,12 +62,6 @@ Using `requests` again:
 ```python3
 >>> import requests
 >>> r = requests.get('http://localhost', json={})
->>> r
-<Response [200]>
->>> r.json()
-{'response': 'Hello world'}
->>> import requests
->>> r = requests.get('http://localhost', json={})
 >>> r.json()
 {'response': 'Hello docker-compose!'}
 ```
