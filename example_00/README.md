@@ -84,7 +84,7 @@ This is where we will run our code in upcoming examples. For now, all we do, is 
 
 When we send a json request to the service using Python's `requests`:
 ```python3
->>> r = requests.get('http://localhost/, json={})
+>>> r = requests.get('http://localhost/', json={})
 >>> r.json()['response']
 'Hello world'
 ```
