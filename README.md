@@ -3,12 +3,12 @@ alpine-python-falcon examples
 
 ## About
 
-These are examples to help you get started with https://github.com/nielsds/alpine-python-falcon.
+These are examples to help you get started with https://github.com/moppermonster/alpine-python-falcon.
 
 ## Examples
 
 ### Example 00
-This is the most basic way to use the `alpine-python-falcon` image.
+This is the most basic way to use the `alpine-python-falcon` image and container.
 
 ### Example 01
 This example adds a second "function" (class, resource instance and route).

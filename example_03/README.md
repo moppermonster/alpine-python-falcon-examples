@@ -7,7 +7,7 @@ In this example, we parse an incoming request for data.
 `Dockerfile` remains the same.
 
 ```Dockerfile
-FROM dutchsecniels/alpine-python-falcon
+FROM moppermonster/alpine-python-falcon
 
 COPY app.py /app.py
 COPY myfunction.py /myfunction.py

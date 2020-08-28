@@ -9,7 +9,7 @@ This example also introduces `resp.status`.
 `Dockerfile` remains the same.
 
 ```Dockerfile
-FROM dutchsecniels/alpine-python-falcon
+FROM moppermonster/alpine-python-falcon
 
 COPY app.py /app.py
 

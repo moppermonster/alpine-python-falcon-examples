@@ -13,7 +13,7 @@ requests
 This time, the `Dockerfile` requires a few extra lines.
 
 ```Dockerfile
-FROM dutchsecniels/alpine-python-falcon
+FROM moppermonster/alpine-python-falcon
 
 # Install requirements
 COPY requirements.txt /tmp/requirements.txt

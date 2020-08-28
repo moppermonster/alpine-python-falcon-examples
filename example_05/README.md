@@ -13,7 +13,7 @@ This file has the following three lines:
 version: '3.2'
 services:
   example05:
-    image: 'dutchsecniels/alpine-python-falcon'
+    image: 'moppermonster/alpine-python-falcon'
     ports:
        - "80:80"
     volumes:

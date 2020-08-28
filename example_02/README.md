@@ -9,7 +9,7 @@ This example adds a second method to `Numbers()` from the previous example.
 `Dockerfile` remains the almost the same, we'll have to specify that we want to `COPY` `myfunction.py` to be abe to use it within the container.
 
 ```Dockerfile
-FROM dutchsecniels/alpine-python-falcon
+FROM moppermonster/alpine-python-falcon
 
 COPY app.py /app.py
 COPY myfunction.py /myfunction.py

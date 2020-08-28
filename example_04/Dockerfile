@@ -1,4 +1,4 @@
-FROM dutchsecniels/alpine-python-falcon
+FROM moppermonster/alpine-python-falcon
 
 # Install requirements
 COPY requirements.txt /tmp/requirements.txt

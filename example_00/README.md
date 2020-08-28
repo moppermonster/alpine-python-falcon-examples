@@ -10,16 +10,16 @@ The first requirement is a `Dockerfile`.
 This file has the following three lines:
 
 ```Dockerfile
-FROM dutchsecniels/alpine-python-falcon
+FROM moppermonster/alpine-python-falcon
 
 COPY app.py /app.py
 
 CMD ["/usr/bin/supervisord"]
 ```
 
-The line that starts with `FROM` tells Docker that the new *Docker image* we are writing should use the image `dutchsecniels/alpine-python-falcon` as it's base image.
+The line that starts with `FROM` tells Docker that the new *Docker image* we are writing should use the image `moppermonster/alpine-python-falcon` as it's base image.
 
-Note the `dutchsecniels/` part: this means that the image is available on the *Docker Hub*. Docker will automatically download images from the Docker Hub if they aren't already present on your machine.
+Note the `moppermonster/` part: this means that the image is available on the *Docker Hub*. Docker will automatically download images from the Docker Hub if they aren't already present on your machine.
 
 The line that starts with `COPY` tells Docker that we want to include the file `./app.py` in the image, at the location `/app.py`. This means that `app.py` will be available at `/app.py` within the container.
 
